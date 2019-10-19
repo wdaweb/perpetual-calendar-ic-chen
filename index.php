@@ -169,11 +169,11 @@
     <?php
     if (($month-1)>0) {
     ?>
-    <a href="permanent_calendar.php?year=<?=$year;?>&month=<?=($month-1);?>" title="上一個月">&lt;&lt;</a>
+    <a href="?year=<?=$year;?>&month=<?=($month-1);?>" title="上一個月">&lt;&lt;</a>
     <?php
     } else {
     ?>
-    <a href="permanent_calendar.php?year=<?=($year-1);?>&month=<?=12;?>" title="上一個月">&lt;&lt;</a>
+    <a href="?year=<?=($year-1);?>&month=<?=12;?>" title="上一個月">&lt;&lt;</a>
     <?php
     }
     ?>
@@ -181,11 +181,11 @@
     <?php
     if (($month+1)>12) {
     ?>
-    <a href="permanent_calendar.php?year=<?=($year+1);?>&month=<?=1;?>" title="下一個月">&gt;&gt;</a>
+    <a href="?year=<?=($year+1);?>&month=<?=1;?>" title="下一個月">&gt;&gt;</a>
     <?php
     } else {
     ?>
-    <a href="permanent_calendar.php?year=<?=$year;?>&month=<?=($month+1);?>" title="下一個月">&gt;&gt;</a>
+    <a href="?year=<?=$year;?>&month=<?=($month+1);?>" title="下一個月">&gt;&gt;</a>
     <?php
     }
     ?>
