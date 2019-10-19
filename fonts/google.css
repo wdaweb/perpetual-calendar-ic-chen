@@ -1,0 +1,14 @@
+/* zcool-kuaile-regular - chinese-simplified_latin */
+@font-face {
+    font-family: 'ZCOOL KuaiLe';
+    font-style: normal;
+    font-weight: 400;
+    src: url('./ZCOOL KuaiLe/zcool-kuaile-v5-chinese-simplified_latin-regular.eot'); /* IE9 Compat Modes */
+    src: local('ZCOOL KuaiLe Regular'), local('ZCOOLKuaiLe-Regular'),
+         url('./ZCOOL KuaiLe/zcool-kuaile-v5-chinese-simplified_latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('./ZCOOL KuaiLe/zcool-kuaile-v5-chinese-simplified_latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+         url('./ZCOOL KuaiLe/zcool-kuaile-v5-chinese-simplified_latin-regular.woff') format('woff'), /* Modern Browsers */
+         url('./ZCOOL KuaiLe/zcool-kuaile-v5-chinese-simplified_latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('./ZCOOL KuaiLe/zcool-kuaile-v5-chinese-simplified_latin-regular.svg#ZCOOLKuaiLe') format('svg'); /* Legacy iOS */
+  }
+  
